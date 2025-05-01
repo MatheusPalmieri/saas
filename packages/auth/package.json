@@ -6,8 +6,8 @@
   "types": "src/index.ts",
   "devDependencies": {
     "@saas/eslint-config": "workspace:*",
-    "@saas/tsconfig": "workspace:*",
-    "@saas/prettier": "workspace:*"
+    "@saas/prettier": "workspace:*",
+    "@saas/tsconfig": "workspace:*"
   },
   "eslintConfig": {
     "extends": [
@@ -16,6 +16,7 @@
   },
   "prettier": "@saas/prettier",
   "dependencies": {
-    "@casl/ability": "^6.7.3"
+    "@casl/ability": "^6.7.3",
+    "zod": "^3.24.3"
   }
 }
