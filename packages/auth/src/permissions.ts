@@ -7,7 +7,7 @@ type Role = 'ADMIN' | 'MEMBER'
 
 type PermissionsByRole = (
   user: User,
-  builder: AbilityBuilder<AppAbility>
+  builder: AbilityBuilder<AppAbility>,
 ) => void
 
 export const permissions: Record<Role, PermissionsByRole> = {

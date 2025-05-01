@@ -15,6 +15,7 @@ const config = {
     arrowParens: 'always',
     endOfLine: 'auto',
     bracketSameLine: false,
+    trailingComma: "all",
 }
 
 export default config
